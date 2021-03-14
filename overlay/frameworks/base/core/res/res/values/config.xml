@@ -497,4 +497,13 @@
 
      <!-- Blank Display After Doze -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
+
+    <string name="config_flashlight_brightness_path_0" translatable="false">/sys/class/leds/led:torch_0/max_brightness</string>
+    <string name="config_flashlight_brightness_path_1" translatable="false">/sys/class/leds/led:torch_1/max_brightness</string>
+    <string name="config_flashlight_brightness_path_2" translatable="false">/sys/class/leds/led:torch_2/max_brightness</string>
+
+    <bool name="config_flashlight_brightness_enabled" translatable="false">false</bool>
+    <integer name="config_flashlight_brightness_value_low" translatable="false">100</integer>
+    <integer name="config_flashlight_brightness_value_medium" translatable="false">200</integer>
+    <integer name="config_flashlight_brightness_value_high" translatable="false">400</integer>
 </resources>
